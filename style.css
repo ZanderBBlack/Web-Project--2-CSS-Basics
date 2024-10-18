@@ -1,0 +1,83 @@
+header {
+    text-align: center;
+    font-family: neue-haas-unica, sans-serif;
+    background-color: #575757;
+    margin: 0;
+    padding: 20px 0; /* Added padding for better appearance */
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background-color: blue;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 50px;
+}
+
+body {
+    background-color: rgb(231, 224, 225);
+    font-family: Arial, sans-serif;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+main {
+    text-align: center;
+}
+
+.text-image-container {
+    margin-bottom: 20px; /* Space below the container */
+}
+
+.content {
+    display: flex;            /* Use Flexbox layout for the heading and image */
+    align-items: center;     /* Center items vertically */
+    justify-content: center;  /* Center items horizontally */
+}
+
+.area-map img {
+    height: 300px;           /* Adjusted size for a better layout */
+    width: 300px;            /* Maintain aspect ratio */
+    border-radius: 50%;      /* Make the image circular */
+    border: 10px solid white; /* White border around the image */
+}
+
+p {
+    font-size: large;         /* Font size for the paragraph */
+    padding: 10px;           /* Space inside the paragraph */
+    margin: 10px 0;          /* Space outside the paragraph */
+}
+
