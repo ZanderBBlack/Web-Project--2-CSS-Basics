@@ -10,10 +10,23 @@
     </title>
 </head>
 <style>
-    #img-move {
-        position: absolute;
-        top: 200px;
-        right: 100px;
+    .area-map img {
+        height: 60%;
+        /* Adjusted size for a better layout */
+        width: 30%;
+        /* Maintain aspect ratio */
+        border-radius: 1%;
+        /* Make the image circular */
+        border: 10px solid #3a3030;
+        /* White border around the image */
+        float: right;
+        margin-left: 2%;
+    }
+
+
+
+    html {
+        scroll-behavior: smooth;
     }
 </style>
 
@@ -28,27 +41,34 @@
         </ul>
     </nav>
     <main>
-        <div class="text-container">
-                <h2>What Happened?</h2>
-                <p>On 3 October 1873, some Saulteaux peoples (an Ojibwe people) and the Government of Canada signed Treaty 3,
-                    also known as the North-West Angle Treaty. This agreement provided the federal government access to
-                    Saulteaux lands in present-day northwestern Ontario and eastern Manitoba in exchange for various goods and
-                    Indigenous rights to hunting, fishing, and natural resources on reserve lands.</p>
-                </div>
-                <div class="area-map">
-                    <img id="img-move" src="Images/treaty-area-map.jpg" alt="Image of Treaty 3 area map">
-                </div>
-        </div>
+        <article class="area-map">
+            <img src="Images/treaty-area-map.jpg" alt="Image of Treaty 3 area map"
+                style="margin-right: 5%; margin-top: 2%;">
+        </article>
+        <div>
+            <h2>Who was involved with this Treaty?</h2>
+            <p>Communities involved in Treaty 3 included the Anishinaabe (Ojibwe People) and the Governement of Canada.
+                Some communties that share the benefits and obligation of this treaty inclued
+                Falcon Lake, Middlebro, Point du Bois, as well as much of Whiteshell.
+            </p>
+            <h2>When and where did this Treaty take place?</h2>
+            <p>Treaty 3 was negotiated in late July, 1871 at Fort France and the Shebandowan Lakes.
+                It took another 2 years until the treaty came to take place on October 3<sup>rd</sup>, 1873</p>
+            <h2>What was the context of the Treaty? Why did it take place?</h2>
+            <p>The federal government wanted access to the Objiwe lands in present day northwestern Ontario and eastern
+                Manitoba. In 1869 the government began making a road and waterway system with the primary objective to
+                provide
+                access to the Canadian Interior. The Ojibwe would "cede, release, surrender and yield" all rights to
+                their
+                land to
+                the Governement of Canada in echange for various good and Indigenous rights to hunting and fishing. </p>
     </main>
-
+    </div>
     <footer>
-        <div class="Copyright" alt="Copyright"> 
+        <div alt="Copyright">
             <p>FishyTime&copy; all rights reserved</p>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
