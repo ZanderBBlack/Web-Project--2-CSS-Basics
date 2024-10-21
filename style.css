@@ -3,18 +3,16 @@ header {
     font-family: neue-haas-unica, sans-serif;
     background-color: #575757;
     margin: 0;
-    padding: 20px 0; /* Added padding for better appearance */
+    padding: 20px 0; 
 }
 
 h1 {
+    color: white;
+    font-size: 50px;
     margin: 0;
     padding: 0;
 }
 
-a:hover {
-    background-color: blue;
-    text-align: center;
-}
 
 nav {
     background-color: #333;
@@ -58,26 +56,34 @@ main {
     text-align: center;
 }
 
-.text-image-container {
-    margin-bottom: 20px; /* Space below the container */
-}
-
-.content {
-    display: flex;            /* Use Flexbox layout for the heading and image */
-    align-items: center;     /* Center items vertically */
-    justify-content: center;  /* Center items horizontally */
+.text-container {
+    margin-top: 5%;
+    margin-right: 40%; /* Space below the container */
 }
 
 .area-map img {
-    height: 300px;           /* Adjusted size for a better layout */
-    width: 300px;            /* Maintain aspect ratio */
+    height: 500px;           /* Adjusted size for a better layout */
+    width: 500px;            /* Maintain aspect ratio */
     border-radius: 50%;      /* Make the image circular */
     border: 10px solid white; /* White border around the image */
+}
+.area-map img:hover{
+    background-color: #575757;
+    border-radius: 50px;
 }
 
 p {
     font-size: large;         /* Font size for the paragraph */
     padding: 10px;           /* Space inside the paragraph */
     margin: 10px 0;          /* Space outside the paragraph */
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: neue-haas-unica, sans-serif;
+    margin-top: 50%;
+    padding: 10px 0;
 }
 

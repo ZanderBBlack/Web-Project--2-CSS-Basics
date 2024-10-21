@@ -10,7 +10,11 @@
     </title>
 </head>
 <style>
-
+    #img-move {
+        position: absolute;
+        top: 200px;
+        right: 100px;
+    }
 </style>
 
 <body>
@@ -20,24 +24,28 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="overview.html">Overview</a></li>
             <li><a href="map.html">Map</a></li>
         </ul>
     </nav>
     <main>
-        <div class="text-image-container">
-            <div class="content">
+        <div class="text-container">
                 <h2>What Happened?</h2>
                 <p>On 3 October 1873, some Saulteaux peoples (an Ojibwe people) and the Government of Canada signed Treaty 3,
                     also known as the North-West Angle Treaty. This agreement provided the federal government access to
                     Saulteaux lands in present-day northwestern Ontario and eastern Manitoba in exchange for various goods and
                     Indigenous rights to hunting, fishing, and natural resources on reserve lands.</p>
-                <div class="area-map">
-                    <img src="Images/treaty-area-map.jpg" alt="Image of Treaty 3 area map">
                 </div>
-            </div>
+                <div class="area-map">
+                    <img id="img-move" src="Images/treaty-area-map.jpg" alt="Image of Treaty 3 area map">
+                </div>
         </div>
     </main>
+
+    <footer>
+        <div class="Copyright" alt="Copyright"> 
+            <p>FishyTime&copy; all rights reserved</p>
+        </div>
+    </footer>
 
 
 
