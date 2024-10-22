@@ -10,7 +10,7 @@
     </title>
 </head>
 <style>
-    .area-map img {
+    #area-map img {
         height: 60%;
         /* Adjusted size for a better layout */
         width: 30%;
@@ -19,20 +19,30 @@
         /* Make the image circular */
         border: 10px solid #3a3030;
         /* White border around the image */
-        float: right;
-        margin-left: 2%;
     }
 
+#image-position
+{
+    float: right;
+    margin-left: 2%;
+}
 
+#fig-position
+{
+    float: right;
+    margin-left: 35%;
+}
 
     html {
         scroll-behavior: smooth;
     }
+
+
 </style>
 
 <body>
     <header>
-        <h1>Treaty 3</h1>
+        <h1>Treaty Number 3</h1>
     </header>
     <nav>
         <ul>
@@ -41,9 +51,11 @@
         </ul>
     </nav>
     <main>
-        <article class="area-map">
-            <img src="Images/treaty-area-map.jpg" alt="Image of Treaty 3 area map"
-                style="margin-right: 5%; margin-top: 2%;">
+        <article id="area-map">
+            <figure>
+                <img src="Images/treaty-area-map.jpg" id="image-position" alt="Image of Treaty 3 area map" style="margin-right: 5%; margin-top: 2%;">
+                <figcaption id="fig-position"></figcaption>
+            </figure>
         </article>
         <div>
             <h2>Who was involved with this Treaty?</h2>
@@ -65,7 +77,7 @@
     </main>
     </div>
     <footer>
-        <div alt="Copyright">
+        <div id="f" alt="Copyright">
             <p>FishyTime&copy; all rights reserved</p>
         </div>
     </footer>
