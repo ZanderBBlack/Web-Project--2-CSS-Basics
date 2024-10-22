@@ -6,66 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>
-        Treaty 3
+        Treaty Number 3
     </title>
+    <style>
+        #area-map img {
+            height: 60%;
+            width: 30%;
+            border-radius: 1%;
+            border: 10px solid #3a3030;
+        }
+
+        #image-position {
+            float: right;
+            margin-left: 2%;
+        }
+
+        #fig-position {
+            float: right;
+            margin-left: 35%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        figcaption {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 50%;
+        }
+    </style>
 </head>
-<style>
-    #area-map img {
-        height: 60%;
-        /* Adjusted size for a better layout */
-        width: 30%;
-        /* Maintain aspect ratio */
-        border-radius: 1%;
-        /* Make the image circular */
-        border: 10px solid #3a3030;
-        /* White border around the image */
-    }
-
-#image-position
-{
-    float: right;
-    margin-left: 2%;
-}
-
-#fig-position
-{
-    float: right;
-    margin-left: 35%;
-}
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-
-</style>
 
 <body>
+    <!-- Header containing site title and navigation -->
     <header>
         <h1>Treaty Number 3</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="map.html">Map</a></li>
-        </ul>
-    </nav>
+    <!-- Main content -->
     <main>
+        <!-- Map of lands involved in treaty -->
         <article id="area-map">
             <figure>
-                <img src="Images/treaty-area-map.jpg" id="image-position" alt="Image of Treaty 3 area map" style="margin-right: 5%; margin-top: 2%;">
+                <img src="Images/treaty-area-map.jpg" id="image-position" alt="Image of Treaty 3 area map"
+                    style="margin-right: 5%; margin-top: 2%;">
                 <figcaption id="fig-position"></figcaption>
             </figure>
         </article>
-        <div>
+        <!-- Section: Who information -->
+        <section>
             <h2>Who was involved with this Treaty?</h2>
             <p>Communities involved in Treaty 3 included the Anishinaabe (Ojibwe People) and the Governement of Canada.
                 Some communties that share the benefits and obligation of this treaty inclued
                 Falcon Lake, Middlebro, Point du Bois, as well as much of Whiteshell.
             </p>
+        </section>
+        <!-- Section: When and where information-->
+        <section>
             <h2>When and where did this Treaty take place?</h2>
             <p>Treaty 3 was negotiated in late July, 1871 at Fort France and the Shebandowan Lakes.
                 It took another 2 years until the treaty came to take place on October 3<sup>rd</sup>, 1873</p>
+        </section>
+        <!-- Section: Contest and why information -->
+        <section>
             <h2>What was the context of the Treaty? Why did it take place?</h2>
             <p>The federal government wanted access to the Objiwe lands in present day northwestern Ontario and eastern
                 Manitoba. In 1869 the government began making a road and waterway system with the primary objective to
@@ -74,8 +82,8 @@
                 their
                 land to
                 the Governement of Canada in echange for various good and Indigenous rights to hunting and fishing. </p>
+        </section>
     </main>
-    </div>
     <footer>
         <div id="f" alt="Copyright">
             <p>FishyTime&copy; all rights reserved</p>
