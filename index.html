@@ -1,3 +1,8 @@
+<!-- Name: Zander Black
+    Course: WD20S
+    Teacher: Ms. Hoitink
+    School: PTC (Pembina Trails Collegiate)
+    Date Last Modfied: 24/10/22-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,60 +13,74 @@
     <title>
         Treaty Number 3
     </title>
+    <!-- Inline CSS styles for specific elements  -->
     <style>
-        #area-map img {
-            height: 60%;
-            width: 30%;
-            border-radius: 1%;
+        /* Styles for the area map */
+        #area-map {
+            margin: 2%;
             border: 10px solid #3a3030;
+            border-radius: 2%;
+            /* Rounds the corners of the area map */
+            height: 90%;
+            width: 70%;
         }
 
-        #image-position {
+        /* Styles for figure elements */
+        figure {
+            width: 50%;
+            /* Sets the width of the figure to 50% of its parent container */
             float: right;
-            margin-left: 2%;
+            /* Floats the figure to the right side of the container */
         }
 
-        #fig-position {
-            float: right;
-            margin-left: 35%;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
+        /* Styles for figcaption elements */
         figcaption {
+            text-align: center;
             font-family: Georgia, "Times New Roman", Times, serif;
-            font-size: 50%;
+            font-size: 60%;
+        }
+
+        /* Styles for anchor elements (links) */
+        a {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: rgb(134, 201, 221);
         }
     </style>
 </head>
 
 <body>
-    <!-- Header containing site title and navigation -->
-    <header>
-        <h1>Treaty Number 3</h1>
+    <!-- Title and Navigation -->
+    <div>
+        <!-- Header containing site title -->
+        <header>
+            <h1>Treaty Number 3</h1>
+        </header>
+        <!-- Navigation -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="map.html">Map</a></li>
+                <li><a href="index.html">Home</a></li> <!-- Navigation link to Home -->
+                <li><a href="map.html">Map</a></li> <!-- Navigation link to Map -->
             </ul>
         </nav>
-    </header>
+    </div>
     <!-- Main content -->
     <main>
+        <!-- Treaty 3 information -->
         <!-- Map of lands involved in treaty -->
-        <article id="area-map">
-            <figure>
-                <img src="Images/treaty-area-map.jpg" id="image-position" alt="Image of Treaty 3 area map"
-                    style="margin-right: 5%; margin-top: 2%;">
-                <figcaption id="fig-position"></figcaption>
-            </figure>
-        </article>
+        <figure>
+            <img src="Images/treaty-area-map.jpg" id="area-map" alt="Image of Treaty 3 area map">
+            <!-- Description of Treaty Map Image -->
+            <!-- Span bolding text -->
+            <figcaption> <span style="font-weight:900;">Anishinaabe Treaty 3 Map - </span> depecting the lands of Treaty
+                3 in refernce to Manitoba and Ontario (
+                <a href="https://gct3.ca/our-nation/">https://gct3.ca/our-nation/</a> ).
+            </figcaption>
+        </figure>
         <!-- Section: Who information -->
         <section>
             <h2>Who was involved with this Treaty?</h2>
-            <p>Communities involved in Treaty 3 included the Anishinaabe (Ojibwe People) and the Governement of Canada.
+            <p>Communities involved in Treaty 3 included the Anishinaabe (Ojibwe People) and the Governement of
+                Canada.
                 Some communties that share the benefits and obligation of this treaty inclued
                 Falcon Lake, Middlebro, Point du Bois, as well as much of Whiteshell.
             </p>
@@ -75,18 +94,59 @@
         <!-- Section: Contest and why information -->
         <section>
             <h2>What was the context of the Treaty? Why did it take place?</h2>
-            <p>The federal government wanted access to the Objiwe lands in present day northwestern Ontario and eastern
-                Manitoba. In 1869 the government began making a road and waterway system with the primary objective to
-                provide
-                access to the Canadian Interior. The Ojibwe would "cede, release, surrender and yield" all rights to
-                their
-                land to
-                the Governement of Canada in echange for various good and Indigenous rights to hunting and fishing. </p>
+            <p>The federal government wanted access to the Objiwe lands in present day northwestern Ontario and
+                eastern
+                Manitoba. In 1869 the government began making a road and waterway system with the primary objective
+                to
+                provide access to the Canadian Interior. The Ojibwe would "cede, release, surrender and yield" all
+                rights to
+                their land to the Governement of Canada in echange for various good and Indigenous rights to hunting
+                and fishing.
+                This land included an area measuring 14,245,000 hectares (ha) which the governemnt had intentions of
+                turning into farming land
+                in the future. </p>
+        </section>
+        <!-- Section: How information  -->
+        <section>
+            <h2>How did this Treaty come to be?</h2>
+            <p>The federal government appointed Robert Pither, a former Hudson's Bay employee, to be sent to the
+                Objiwe as an Indian agent
+                (a government representitve on Indigenous reserves) in 1870. He was then sent to Fort Frances
+                of northwestern Ontario, where he was to “establish and keep upfriendly relations” with the
+                Indigenous peoples.
+                The Ojibwe were ready to negotiate a treaty, they made it clear to Wemyss Simpson (an appointed
+                Indian commissioner with the authority to make treaties)
+                that they had no intention of permitting “farmers to settle” on their land. Indicating that they did
+                not intend to cede their rights to the land and wanted
+                compensation exchange for allowing the development of specific government projects on their
+                territory. They later came to a negotiation however many promises werent
+                kept.</p>
+        </section>
+        <!-- Section: Terms of the Treaty information -->
+        <section>
+            <h2>Terms of the Treaty:</h2>
+            <p>Under the terms of the treaty, the Government of Canada promised to set aside reserves for the Ojibwe
+                and to provide them with various financial gains,
+                including a one-time cash payment of <sup>$</sup>12 per family of five and a yearly payment of
+                <sup>$</sup>5 per person.
+                These key Crown obligations which were of higher allowance apposed to
+                previous treaties at that time.
+            </p>
+        </section>
+        <!-- Section: After information -->
+        <section>
+            <h2>What came after?</h2>
+            <p> Treaty 3 became the standard by which the rest of the Numbered Treaties were modeled government also
+                raised the annual payments given to the Indigenous peoples of Treaties
+                1 and 2 so as to better reflect those of Treaty 3. Later Treaty 3 gained its own police force "the
+                Treaty Three Police Service (TTPS)".
+                Funded by the federal and provincial government. </p>
         </section>
     </main>
+    <!-- Footer section with copyright information -->
     <footer>
-        <div id="f" alt="Copyright">
-            <p>FishyTime&copy; all rights reserved</p>
+        <div alt="Copyright">
+            <p>FishyTime&copy; all rights reserved</p> <!-- Copyright notice -->
         </div>
     </footer>
 </body>

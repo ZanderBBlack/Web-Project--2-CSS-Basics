@@ -1,3 +1,4 @@
+/* Styles for the header section */
 header {
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -6,6 +7,7 @@ header {
     padding: 1% 0;
 }
 
+/* Styles for the main heading */
 h1 {
     color: beige;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -14,6 +16,7 @@ h1 {
     padding: 0;
 }
 
+/* Styles for the navigation bar */
 nav {
     background-color: #3a3030;
     margin: 0;
@@ -21,31 +24,43 @@ nav {
     font-family: neue-haas-unica, sans-serif;
 }
 
+/* Styles for the unordered list within the navigation */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
+    /* Displays the list items in a horizontal (flex) layout */
 }
 
+/* Styles for individual list items in the navigation */
 nav ul li {
     flex: 1;
+    /* Makes each list item take up equal space within the flex container */
 }
 
+/* Styles for links within the navigation list items */
 nav ul li a {
     display: block;
+    /* Makes the link behave like a block element, allowing padding */
     padding: 2.5%;
     text-align: center;
     text-decoration: none;
+    /* Removes the default underline from links */
+    font-size: 125%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: beige;
 }
 
+/* Styles for the hover effect on navigation links */
 nav ul li a:hover {
     background-color: #251919;
+    /* Changes background color when the link is hovered over */
     border-radius: 50px;
+    /* Rounds the corners of the background for a softer look */
 }
 
+/* General styles for the body */
 body {
     background-color: #504343;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -55,32 +70,33 @@ body {
     color: beige;
 }
 
+/* Styles for the main content area */
 main {
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 125%;
-    /* Font size for the paragraph */
     padding: 1%;
-    /* Space inside the paragraph */
     margin-right: 3%;
     margin-left: 2%;
 }
 
+/* Styles for secondary headings */
 h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 150%;
     padding: 1%;
-    /* Space inside the paragraph */
     margin: 1% 0;
     margin-top: 3%;
     margin-bottom: 2%;
     font-weight: bolder;
 }
 
+/* Styles for paragraphs */
 p {
     margin: 0%;
 }
 
+/* Styles for the footer section */
 footer {
     background-color: #322121;
     color: beige;
