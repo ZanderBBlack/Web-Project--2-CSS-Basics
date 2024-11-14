@@ -5,19 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Map of Treaty Number 3</title>
+    <title>Treaty Number 3- Map</title>
+    <style>
+        #area-map {
+            margin: 2%;
+            margin-top: 0%;
+            align-self: center;
+            border: 10px solid #00655A;
+            border-radius: 2%;
+            /* Rounds the corners of the area map */
+            padding: 0%;
+            height: auto;
+            width: 60%;
+
+        }
+
+        figcaption {
+            text-align: center;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 1.9rem;
+        }
+    </style>
 </head>
 
 <body>
+    <div>
+        <nav>
+            <ul>
+                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Navigation link to Home -->
+                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Navigation link to Map -->
+                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Navigation link to About Us -->
+            </ul>
+        </nav>
     <header>
-        <h1>Map of Treaty</h1>
+        <h1>- - - Map of Treaty - - -</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="map.html">Map</a></li>
-        </ul>
-    </nav>
+</div>
+    <main id="border" tabindex="4">
+        <figure>
+            <img src="Images/treaty-area-map.jpg" id="area-map" alt="Image of Treaty 3 indepth area map">
+            <!-- Description of Treaty Map Image -->
+            <!-- Span bolding text -->
+            <figcaption class="text"> <span style="font-weight:900;">Anishinaabe Treaty 3 Map - </span> depecting the
+                lands <br> of Treaty
+                3 in refernce to Manitoba and Ontario (
+                <a href="https://gct3.ca/our-nation/">Grand Council Treaty 3</a> ).
+            </figcaption>
+        </figure>
+    </main>
+    <footer tabindex="5">
+        <div alt="copyright">
+            <p>FishyTime.ZanBlack&copy; all rights reserved</p> <!-- Copyright notice -->
+        </div>
+    </footer>
 </body>
 
 </html>

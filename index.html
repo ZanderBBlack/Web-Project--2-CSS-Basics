@@ -11,14 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>
-        Treaty Number 3
+        Treaty Number 3- Home
     </title>
     <!-- Inline CSS styles for specific elements  -->
     <style>
         /* Styles for the area map */
         #area-map {
             margin: 2%;
-            border: 10px solid #3a3030;
+            border: 10px solid #00655A;
             border-radius: 2%;
             /* Rounds the corners of the area map */
             height: 90%;
@@ -37,14 +37,10 @@
         figcaption {
             text-align: center;
             font-family: Georgia, "Times New Roman", Times, serif;
-            font-size: 60%;
+            font-size: 1.6rem;
         }
 
         /* Styles for anchor elements (links) */
-        a {
-            font-family: Georgia, "Times New Roman", Times, serif;
-            color: rgb(134, 201, 221);
-        }
     </style>
 </head>
 
@@ -52,32 +48,34 @@
     <!-- Title and Navigation -->
     <div>
         <!-- Header containing site title -->
-        <header>
-            <h1>Treaty Number 3</h1>
-        </header>
         <!-- Navigation -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li> <!-- Navigation link to Home -->
-                <li><a href="map.html">Map</a></li> <!-- Navigation link to Map -->
+                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Navigation link to Home -->
+                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Navigation link to Map -->
+                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Navigation link to About Us -->
             </ul>
         </nav>
+        <header>
+            <h1>- - - Treaty Number 3 - - -</h1>
+        </header>
     </div>
     <!-- Main content -->
-    <main>
+    <main id="border">
         <!-- Treaty 3 information -->
         <!-- Map of lands involved in treaty -->
         <figure>
-            <img src="Images/treaty-area-map.jpg" id="area-map" alt="Image of Treaty 3 area map">
+            <img src="Images/treaty-3.png" id="area-map" alt="Image of Treaty 3 basic area">
             <!-- Description of Treaty Map Image -->
             <!-- Span bolding text -->
-            <figcaption> <span style="font-weight:900;">Anishinaabe Treaty 3 Map - </span> depecting the lands <br> of Treaty
-                3 in refernce to Manitoba and Ontario (
-                <a href="https://gct3.ca/our-nation/">https://gct3.ca/our-nation/</a> ).
+            <figcaption class="text"> <span style="font-weight:900;">Anishinaabe Treaty 3 Area - </span> depecting
+                general lands <br> of Treaty
+                3 within Canada (
+                <a href="https://x.com/GrandCouncilT3/status/1721166115663925516">Grand Council Treaty 3</a> ).
             </figcaption>
         </figure>
         <!-- Section: Who information -->
-        <section>
+        <section id="who" class="text" tabindex="4">
             <h2>Who was involved with this Treaty?</h2>
             <p>Communities involved in Treaty 3 included the Anishinaabe (Ojibwe People) and the Governement of
                 Canada.
@@ -86,13 +84,13 @@
             </p>
         </section>
         <!-- Section: When and where information-->
-        <section>
+        <section id="when & where" class="text" tabindex="5">
             <h2>When and where did this Treaty take place?</h2>
-            <p>Treaty 3 was negotiated in late July, 1871 at Fort France and the Shebandowan Lakes.
-                It took another 2 years until the treaty came to take place on October 3<sup>rd</sup>, 1873</p>
+            <p>Treaty 3 was negotiated in late July, 1871 at Fort Frances and the Shebandowan Lakes.
+                It took another 2 years until the treaty came to take place on October 3<sup>rd</sup>, 1873.</p>
         </section>
-        <!-- Section: Contest and why information -->
-        <section>
+        <!-- Section: Context and why information -->
+        <section id="why" class="text" tabindex="6">
             <h2>What was the context of the Treaty? Why did it take place?</h2>
             <p>The federal government wanted access to the Objiwe lands in present day northwestern Ontario and
                 eastern
@@ -107,7 +105,7 @@
                 in the future. </p>
         </section>
         <!-- Section: How information  -->
-        <section>
+        <section id="how" class="text" tabindex="7">
             <h2>How did this Treaty come to be?</h2>
             <p>The federal government appointed Robert Pither, a former Hudson's Bay employee, to be sent to the
                 Objiwe as an Indian agent
@@ -123,7 +121,7 @@
                 kept.</p>
         </section>
         <!-- Section: Terms of the Treaty information -->
-        <section>
+        <section id="terms" class="text" tabindex="8">
             <h2>Terms of the Treaty:</h2>
             <p>Under the terms of the treaty, the Government of Canada promised to set aside reserves for the Ojibwe
                 and to provide them with various financial gains,
@@ -134,7 +132,7 @@
             </p>
         </section>
         <!-- Section: After information -->
-        <section>
+        <section id="after" class="text" tabindex="9">
             <h2>What came after?</h2>
             <p> Treaty 3 became the standard by which the rest of the Numbered Treaties were modeled government also
                 raised the annual payments given to the Indigenous peoples of Treaties
@@ -142,11 +140,22 @@
                 Treaty Three Police Service (TTPS)".
                 Funded by the federal and provincial government. </p>
         </section>
+        <!-- Section: References -->
+        <section class="text">
+            <h2>References</h2>
+            <a href="https://www.thecanadianencyclopedia.ca/en/article/treaty-3">The Canadian Encyclopedia-Treaty 3</a>
+            <br>
+            <a href="https://scoinc.mb.ca/treaties/">Southerns Chief Orgnaization's Inc-Treaties</a>
+            <br>
+            <a href="https://gct3.ca/our-nation/our-treaty/">Grand Council Treaty 3</a>
+            <br>
+            <a href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028675/1581294028469">Government of Canada-Treaty 3</a>
+        </section>
     </main>
     <!-- Footer section with copyright information -->
-    <footer>
-        <div alt="Copyright">
-            <p>FishyTime&copy; all rights reserved</p> <!-- Copyright notice -->
+    <footer tabindex="10">
+        <div alt="copyright">
+            <p>FishyTime.ZanBlack&copy; all rights reserved</p> <!-- Copyright notice -->
         </div>
     </footer>
 </body>

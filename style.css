@@ -1,26 +1,44 @@
+/* Color Family
+The color family I chose includes: #00655A (carribean current), #AD591D (burnt orange), #F5F5DC (beige), #3B3835 (jet).
+The meaning behind these green blue color links to nature and the earth a big part of Indigenous communities. In addition
+the green and blueish tones (carribean current) represent the environment and life itself the connection between water 
+and land, life and renewal, the cycle of beginning, coming to a new era of the Treaty 3 region. The very dark brown and off white
+neutrals (jet and beige) represent the earth and soil the foundation of which life is built, as well as the natural world that the
+Anishinaabe peoples have long depended on for living: shelter, tools, and spiritual practices. The color orange (burnt orange)
+represents the land and the resources that the Anishinaabe people historically lived on and relied upon from earth to harvests.
+Tt may also symbolize the continuity between the Anishinaabe nations and the Crown.*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 /* Styles for the header section */
 header {
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    background-color: #322121;
-    margin: 0%;
-    padding: 1% 0;
-}
-
-/* Styles for the main heading */
-h1 {
     color: beige;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 400%;
-    margin: 0;
+    font-size: 3.8rem;
+    margin: 0%;
     padding: 0;
+    word-spacing: 15px;
+    letter-spacing: 1px;
 }
 
 /* Styles for the navigation bar */
 nav {
-    background-color: #3a3030;
-    margin: 0;
-    padding: 0;
+    background-color: #00655a;
+    height: 75px;
+    /* Set the height */
+    margin: 10px;
+    /* Set margin around the nav */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    align-content: center;
+    /* Center rows in the flex container */
     font-family: neue-haas-unica, sans-serif;
 }
 
@@ -34,7 +52,7 @@ nav ul {
 }
 
 /* Styles for individual list items in the navigation */
-nav ul li {
+nav li {
     flex: 1;
     /* Makes each list item take up equal space within the flex container */
 }
@@ -42,67 +60,83 @@ nav ul li {
 /* Styles for links within the navigation list items */
 nav ul li a {
     display: block;
-    /* Makes the link behave like a block element, allowing padding */
     padding: 2.5%;
     text-align: center;
     text-decoration: none;
-    /* Removes the default underline from links */
     font-size: 125%;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: beige;
+    color: #f5f5dc;
+    background-color: #08534a;
+    /* Give 20 pixels of padding */
+    margin: 5px 30px 5px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 /* Styles for the hover effect on navigation links */
 nav ul li a:hover {
-    background-color: #251919;
-    /* Changes background color when the link is hovered over */
-    border-radius: 50px;
-    /* Rounds the corners of the background for a softer look */
+    background-color: #0b3b36;
+    transform: scale(1.09);
 }
 
 /* General styles for the body */
 body {
-    background-color: #504343;
+    background-color: #3b3835;
     font-family: Georgia, "Times New Roman", Times, serif;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: beige;
+    font-size: 1.6rem;
+    color: #f5f5dc;
 }
 
 /* Styles for the main content area */
 main {
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 125%;
-    padding: 1%;
-    margin-right: 3%;
-    margin-left: 2%;
+    font-size: 2rem;
+    padding-right: 5%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    word-spacing: 3px;
+    line-height: 140%;
+}
+
+#border {
+    margin: 1.5%;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    border: 10px solid #ad591d;
+    border-radius: 2%;
 }
 
 /* Styles for secondary headings */
 h2 {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 150%;
+    font-size: 2.8rem;
     padding: 1%;
     margin: 1% 0;
     margin-top: 3%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-weight: bolder;
 }
 
-/* Styles for paragraphs */
-p {
+.text {
     margin: 0%;
 }
 
 /* Styles for the footer section */
 footer {
-    background-color: #322121;
-    color: beige;
+    background-color: #00655a;
+    color: #f5f5dc;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 125%;
+    font-size: 2.4rem;
     margin-top: 4%;
-    padding: 1%;
+    padding: 0.01%;
+}
+
+a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #0c9d8c;
 }
