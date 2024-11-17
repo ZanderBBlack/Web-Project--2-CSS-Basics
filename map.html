@@ -4,55 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet for additional styling -->
     <link rel="stylesheet" href="style.css">
-    <title>Treaty Number 3- Map</title>
+    <title>Treaty Number 3 - Map</title>
+    <!-- Title of the page displayed in the browser tab -->
+
     <style>
+        /* Styling for the image container */
         #image-border {
             margin: 2%;
+            /* Adds a small margin around the image */
             margin-top: 0%;
+            /* No margin on top */
             align-self: center;
+            /* Centers the image container within its parent (if it's part of a flex container) */
             border: 15px solid #00655A;
+            /* A solid green border around the image */
             border-radius: 5%;
-            /* Rounds the corners of the area map */
+            /* Slightly rounds the corners of the image container */
             padding: 0%;
+            /* Removes any padding inside the container */
             height: auto;
+            /* Ensures the image height scales based on width */
             width: 60%;
-
+            /* Makes the image container 60% of its parent’s width */
         }
 
+        /* Styling for the figcaption */
         figcaption {
             text-align: center;
+            /* Centers the text within the caption */
             font-family: Georgia, "Times New Roman", Times, serif;
+            /* Specifies the font family for the caption */
             font-size: 1.9rem;
+            /* Increases the font size for better readability */
         }
     </style>
+
 </head>
 
 <body>
     <div>
+        <!-- Navigation menu with links to other pages -->
         <nav>
             <ul>
-                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Navigation link to Home -->
-                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Navigation link to Map -->
-                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Navigation link to About Us -->
+                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Link to the home page -->
+                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Link to the current map page -->
+                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Link to the About Us page -->
             </ul>
         </nav>
+
+        <!-- Header section with the title of the page -->
         <header>
-            <h1>- - - Map of Treaty - - -</h1>
+            <h1>- - - Map of Treaty - - -</h1> <!-- Main title for the page -->
         </header>
     </div>
+
+    <!-- Main content section for the map -->
     <main id="border" tabindex="4">
+        <!-- Figure element for the map image -->
         <figure>
             <img src="Images/treaty-area-map.jpg" id="image-border" alt="Image of Treaty 3 indepth area map">
-            <!-- Description of Treaty Map Image -->
-            <!-- Span bolding text -->
-            <figcaption class="text"> <span style="font-weight:900;">Anishinaabe Treaty 3 Map - </span> depecting the
-                lands <br> of Treaty
-                3 in refernce to Manitoba and Ontario (
+            <!-- Map image with the 'image-border' style applied -->
+            <figcaption class="text">
+                <span style="font-weight:900;">Anishinaabe Treaty 3 Map - </span> depicting the lands of Treaty 3 in
+                reference to Manitoba and Ontario (
                 <a href="https://gct3.ca/our-nation/">Grand Council Treaty 3</a> ).
             </figcaption>
         </figure>
     </main>
+
+    <!-- Footer section with copyright information -->
     <footer tabindex="5">
         <div alt="copyright">
             <p>FishyTime.ZanBlack&copy; all rights reserved</p> <!-- Copyright notice -->

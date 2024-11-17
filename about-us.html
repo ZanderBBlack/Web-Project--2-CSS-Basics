@@ -5,84 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Treaty 3- About Us</title>
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title of the page shown in the browser tab -->
+    <title>Treaty 3 - About Us</title>
+
     <style>
+        /* CSS Styles embedded in the HTML document for quick reference */
+        /* Image Styling */
         img {
             margin: 2%;
+            /* Adds space around the image */
             border: 15px solid #00655A;
+            /* Greenish border around the image */
             border-radius: 5%;
-            /* Rounds the corners of the area map */
+            /* Rounds the corners of the image */
             height: 90%;
+            /* Sets the image height to 90% of the container */
             width: 70%;
+            /* Sets the image width to 70% of the container */
         }
 
+        /* About Us Section Styling */
         #about-us {
             font-family: Georgia, "Times New Roman", Times, serif;
+            /* Font for About Us section */
             font-size: 2rem;
+            /* Sets the font size to 2rem for larger text */
             text-align: center;
+            /* Centers the text */
             padding-bottom: 2%;
+            /* Adds space below the section */
         }
     </style>
 </head>
 
 <body>
     <div>
+        <!-- Navigation Bar -->
         <nav>
             <ul>
-                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Navigation link to Home -->
-                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Navigation link to Map -->
-                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Navigation link to About Us -->
+                <!-- Navigation Links -->
+                <li><a tabindex="1" href="index.html">Treaty</a></li> <!-- Link to home page -->
+                <li><a tabindex="2" href="map.html">Map</a></li> <!-- Link to map page -->
+                <li><a tabindex="3" href="about-us.html">About Us</a></li> <!-- Link to About Us page -->
             </ul>
         </nav>
-        <header>
-            <h1>- - - About Us - - -</h1>
-        </header>
-        <p id="about-us">Welcome to Fishy Time, where we do something I don't really know. We are passionate about
-            delivering
-            information about fish and treaties.</p>
-    </div>
-    <main id="border">
 
+        <!-- Header Section with Page Title -->
+        <header>
+            <h1>- - - About Us - - -</h1> <!-- Main title of the page -->
+        </header>
+
+        <!-- About Us Introductory Paragraph -->
+        <p id="about-us">Welcome to Fishy Time, where we do something I don't really know. We are passionate about
+            delivering information about fish and treaties.</p>
+    </div>
+
+    <main id="border">
+        <!-- Section 1: Our Mission -->
         <section id="mission" class="text" tabindex="4">
             <h2>Our Mission</h2>
             <p>At Fishy Time, our mission is to give people information.</p>
         </section>
 
+        <!-- Section 2: Our Story -->
         <section id="story" class="text" tabindex="5">
             <h2>Our Story</h2>
             <p>Founded in 2024 by Zander B Black, our journey began with Fish. Today, we are not fish. Treaties.</p>
         </section>
 
+        <!-- Section 3: Meet the Team -->
         <section id="team" class="text" tabindex="6">
             <h2>Meet the Team</h2>
             <p>We’re a passionate team of just me, dedicated to Fishy Time.</p>
             <div class="team-members">
+                <!-- Team Member Profile -->
                 <div class="team-member">
-                    <img src="Images/Zander.jpg" alt="Team Member 1">
-                    <p><strong>Zander B Black</strong> - Founder</p>
+                    <img src="Images/Zander.jpg" alt="Team Member 1"> <!-- Image of the team member -->
+                    <p><strong>Zander B Black</strong> - Founder</p> <!-- Name and role of the team member -->
                 </div>
             </div>
         </section>
 
+        <!-- Section 4: Our Achievements -->
         <section id="achievements" class="text" tabindex="7">
             <h2>Our Achievements</h2>
             <ul>
-                <li>Awarded 'Fishy Webstie' 2024</li>
-                <li>Expanded to two website across Interweb</li>
-                <li>Featured in Fishy Time</li>
+                <li>Awarded 'Fishy Website' 2024</li> <!-- Achievement 1 -->
+                <li>Expanded to two websites across Interweb</li> <!-- Achievement 2 -->
+                <li>Featured in Fishy Time</li> <!-- Achievement 3 -->
             </ul>
         </section>
 
+        <!-- Section 5: Contact Us -->
         <section id="contact" class="text" tabindex="8">
             <h2>Contact Us</h2>
             <p>Have questions? Reach out at <a
                     href="https://www.youtube.com/watch?v=7sSyfXZrGrs">FishyTime.ZanBlack@company.com</a>.</p>
+            <!-- Contact email with link -->
         </section>
-
     </main>
+
+    <!-- Footer Section -->
     <footer tabindex="9">
         <div alt="copyright">
-            <p>FishyTime.ZanBlack&copy; all rights reserved</p> <!-- Copyright notice -->
+            <!-- Copyright Notice -->
+            <p>FishyTime.ZanBlack&copy; all rights reserved</p>
         </div>
     </footer>
 </body>
